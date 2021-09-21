@@ -13,4 +13,5 @@ Common Writable Folders:
 /var/tmp
 /run/lock
 `
-
+Edit host file
+`echo "192.241.xx.xx  venus.example.com venus" >> /etc/hosts`
