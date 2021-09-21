@@ -2,7 +2,15 @@
 
 Check for Vulns
 
-`nmap -sV -A TARGETIP`
+
+`nmap -sC -sV -oA hostname ip
+`
+
+`nmap -v --open -sC -T4 -oA hostname ip
+`
+
+`nmap -T4 -sC -sV -oO --open -v hostname ip
+`
 
 See if there is an NMP script
 
